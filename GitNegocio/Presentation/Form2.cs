@@ -15,7 +15,7 @@ namespace Presentation
         public Form2()
         {
             InitializeComponent();
-            //hola
+            //hola v2
         }
     }
 }
