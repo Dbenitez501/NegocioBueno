@@ -13,7 +13,6 @@ namespace AccesoDatos
 
         public ConnectionToMySql()
         {
-            //connectionString = "Server=(LocalDB)\\LocalDBDemo;DataBase=negocio; integrated security = true";
             connectionString = "Server=localhost; DataBase=negocio; User=root; port=3306; password=;";
         }
 
