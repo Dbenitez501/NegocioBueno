@@ -1,0 +1,6 @@
+C:\Users\Diego Benitez\source\repos\NegocioBueno\GitNegocio\Comun\bin\Debug\Comun.dll
+C:\Users\Diego Benitez\source\repos\NegocioBueno\GitNegocio\Comun\bin\Debug\Comun.pdb
+C:\Users\Diego Benitez\source\repos\NegocioBueno\GitNegocio\Comun\obj\Debug\Comun.csprojAssemblyReference.cache
+C:\Users\Diego Benitez\source\repos\NegocioBueno\GitNegocio\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\Users\Diego Benitez\source\repos\NegocioBueno\GitNegocio\Comun\obj\Debug\Comun.dll
+C:\Users\Diego Benitez\source\repos\NegocioBueno\GitNegocio\Comun\obj\Debug\Comun.pdb
