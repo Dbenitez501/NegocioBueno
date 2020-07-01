@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Comun.Cache
 {
-    class UserCache
+    public class UserCache
     {
         public static int IdEmp { get; set; }
         public static string NomEmp { get; set; }

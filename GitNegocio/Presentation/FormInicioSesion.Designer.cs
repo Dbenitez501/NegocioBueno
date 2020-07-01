@@ -37,6 +37,7 @@
             this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.txtCont = new System.Windows.Forms.TextBox();
             this.btnIngresar = new System.Windows.Forms.Button();
+            this.lblErrorMsg = new System.Windows.Forms.Label();
             this.iconMinimizar = new System.Windows.Forms.PictureBox();
             this.iconCerrar = new System.Windows.Forms.PictureBox();
             this.panelLogo.SuspendLayout();
@@ -144,12 +145,26 @@
             this.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIngresar.ForeColor = System.Drawing.Color.White;
-            this.btnIngresar.Location = new System.Drawing.Point(500, 284);
+            this.btnIngresar.Location = new System.Drawing.Point(500, 303);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(251, 42);
             this.btnIngresar.TabIndex = 0;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = false;
+            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
+            // 
+            // lblErrorMsg
+            // 
+            this.lblErrorMsg.AutoSize = true;
+            this.lblErrorMsg.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblErrorMsg.Image = global::Presentation.Properties.Resources.error;
+            this.lblErrorMsg.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblErrorMsg.Location = new System.Drawing.Point(393, 260);
+            this.lblErrorMsg.Name = "lblErrorMsg";
+            this.lblErrorMsg.Size = new System.Drawing.Size(113, 21);
+            this.lblErrorMsg.TabIndex = 8;
+            this.lblErrorMsg.Text = "Mensaje Error";
+            this.lblErrorMsg.Visible = false;
             // 
             // iconMinimizar
             // 
@@ -187,6 +202,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(928, 393);
+            this.Controls.Add(this.lblErrorMsg);
             this.Controls.Add(this.iconMinimizar);
             this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.iconCerrar);
@@ -223,5 +239,6 @@
         private System.Windows.Forms.PictureBox iconCerrar;
         private System.Windows.Forms.Button btnIngresar;
         private System.Windows.Forms.PictureBox iconMinimizar;
+        private System.Windows.Forms.Label lblErrorMsg;
     }
 }

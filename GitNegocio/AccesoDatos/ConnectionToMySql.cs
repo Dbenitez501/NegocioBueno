@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AccesoDatos
 {
-    class ConnectionToMySql
+    public abstract class ConnectionToMySql
     {
         private readonly string connectionString;
 
